@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Home",
+    "url": "/home"
+  },
+  {
+    "title": "Products",
+    "url": "/products",
+    "subMenu": [
+      {
+        "category": "Clothing",
+        "subCategories": [
+          { "title": "Shirts", "url": "/products/shirts" },
+          { "title": "pants", "url": "/products/pants" },
+          { "title": "Coats", "url": "/products/coats" },
+          { "title": "Shoes", "url": "/products/shoes" },
+          { "title": "Belts", "url": "/products/belts" }
+        ]
+      },
+      {
+        "category": "Electronics",
+        "subCategories": [
+          { "title": "Laptop", "url": "/products/laptop" },
+          { "title": "Tablet", "url": "/products/tablet" },
+          { "title": "Mobile", "url": "/products/mobile" }
+        ]
+      },
+      {
+        "category": "Language",
+        "subCategories": [
+          { "title": "Hindi", "url": "/products/hindi" },
+          { "title": "Punjabi", "url": "/products/punjabi" },
+          { "title": "English", "url": "/products/english" },
+          { "title": "French", "url": "/products/french" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Resources",
+    "url": "/resources",
+    "subMenu": [
+      {
+        "mega_menu_item": "<img src=\"https://via.placeholder.com/250x300\" />"
+      },
+      {
+        "category": "Learn & Support",
+        "subCategories": [
+          { "title": "Training Hub", "url": "/resources/training" },
+          { "title": "Release Notes", "url": "/resources/notes" },
+          { "title": "Help Center", "url": "/resources/help" }
+        ]
+      },
+      {
+        "category": "About & Contact",
+        "subCategories": [
+          { "title": "About Us", "url": "/resources/about" },
+          { "title": "Community & Events", "url": "/resources/community" },
+          { "title": "Security", "url": "/resources/security" },
+          { "title": "Shortcut Blog", "url": "/resources/blog" }
+        ]
+      },
+      {
+        "category": "Our Customer Stories",
+        "subCategories": [
+          { "title": "Customer", "url": "/resources/customer" },
+          { "title": "Produt Owner", "url": "/resources/productOwner" },
+          { "title": "Product Engineer", "url": "/resources/engineer" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Blog",
+    "url": "/blog"
+  },
+  {
+    "title": "Contact",
+    "url": "/contact"
+  }
+]

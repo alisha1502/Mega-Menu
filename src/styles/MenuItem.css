@@ -1,0 +1,21 @@
+/* MenuItem.css */
+
+.menu-item {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px; /* Add some space between menu items */
+}
+
+.menu-item:last-child {
+  margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.menu-item:hover > .submenu {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-item {
+    margin-right: 0; /* Reset margin for small screens */
+  }
+}
